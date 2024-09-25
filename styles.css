@@ -1,0 +1,65 @@
+/* General Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5dc; /* Light beige background for an earthy feel */
+    color: #4d4d33; /* Dark greenish-brown text */
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header Styles */
+header {
+    background-color: #d9e8d5; /* Soft green background */
+    padding: 10px;
+    text-align: center;
+}
+
+/* Section Styles */
+section {
+    margin: 20px 0;
+    padding: 15px;
+    border: 1px solid #b3c3b3; /* Light green border */
+    border-radius: 5px;
+    background-color: #eae7d4; /* Light beige for sections */
+}
+
+/* Heading Styles */
+h1, h2 {
+    color: #3c4a3e; /* Darker green for headings */
+}
+
+/* Link Styles */
+/* LINK PROPERTIES */
+A:link {
+    text-decoration: none; /* No underline for unvisited links */
+    color: #2e4d2b; /* Dark green for links */
+}
+A:visited {
+    text-decoration: none; /* No underline for visited links */
+    color: #4f6d3e; /* Medium green for visited links */
+}
+A:active {
+    text-decoration: none; /* No underline for active links */
+    color: #5e7e4e; /* Light green for active links */
+}
+A:hover {
+    text-decoration: underline; /* Underline on hover */
+    color: #a3c2a1; /* Lighter green for hovered links */
+}
+
+/* Additional styles for lists */
+ul {
+    list-style-type: disc; /* Bulleted list style */
+    padding-left: 20px; /* Padding for list */
+}
+
+/* Blockquote Styles */
+blockquote {
+    font-style: italic;
+    color: #555; /* Gray for blockquote */
+    border-left: 2px solid #8f9c84; /* Soft green border */
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
