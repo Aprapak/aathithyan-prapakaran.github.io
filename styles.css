@@ -30,20 +30,19 @@ h1, h2 {
 }
 
 /* Link Styles */
-/* LINK PROPERTIES */
-A:link {
+a:link {
     text-decoration: none; /* No underline for unvisited links */
     color: #2e4d2b; /* Dark green for links */
 }
-A:visited {
+a:visited {
     text-decoration: none; /* No underline for visited links */
     color: #4f6d3e; /* Medium green for visited links */
 }
-A:active {
+a:active {
     text-decoration: none; /* No underline for active links */
     color: #5e7e4e; /* Light green for active links */
 }
-A:hover {
+a:hover {
     text-decoration: underline; /* Underline on hover */
     color: #a3c2a1; /* Lighter green for hovered links */
 }
@@ -63,3 +62,11 @@ blockquote {
     margin: 10px 0;
 }
 
+/* Image Hover Effect */
+#myImage {
+    transition: transform 0.2s; /* Smooth transition for image enlarging */
+}
+
+#myImage:hover {
+    transform: scale(1.1); /* Slightly enlarge image on hover */
+}
